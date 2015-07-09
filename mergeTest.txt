@@ -1,8 +1,0 @@
-blachanged
-bla
-bla
-<<<<<<< HEAD
-bla1
-=======
-bla2
->>>>>>> master
