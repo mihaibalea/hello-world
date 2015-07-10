@@ -1,0 +1,46 @@
+{"webApp":{
+  "servlet": [   
+    {
+      "servletName": "cofaxCDS",
+      "servletClass": "org.cofax.cds.CDSServlet",
+      "initParam": {
+        "templatePath": "templates",
+        "templateOverridePath": "c",
+        "useJSP": false,
+        "dataLog": 1
+      }
+	},
+    {
+      "servletName": "cofaxEmail",
+      "servletClass": "org.cofax.cds.EmailServlet",
+      "initParam": {
+		"mailHost": "mail1",
+		"mailHostOverride": "mail2"}
+	 },
+    {
+      "servletName": "cofaxAdmin",
+      "servletClass": "org.cofax.cds.AdminServlet"},
+ 
+    {
+      "servletName": "fileServlet",
+      "servletClass": "org.cofax.cds.FileServlet"},
+    {
+      "servletName": "cofaxTools",
+      "servletClass": "org.cofax.cms.CofaxToolsServlet",
+      "initParam": {
+        "templatePath": "toolstemplates/",
+        "useJSP": true,
+        "logLocation": "/usr/local/tomcat/logs/CofaxTools.log",
+        "dataLog": 1}
+	}
+  ],
+  "servletMapping": {
+    "cofaxCDS": "/",
+    "cofaxEmail": "/cofaxutil/aemail/*"},
+ 
+  "tagLib": {
+    "taglibUri": "cofax.tld",
+    "taglibLocation": "/WEB-INF/tlds/cofax.tld"}
+   }
+}
+ 
