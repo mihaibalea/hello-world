@@ -1,7 +1,0 @@
-com\application\jsonApp\Mainapp.class
-com\application\jsonApp\domain\WebApp.class
-com\application\jsonApp\domain\Class.class
-com\application\jsonApp\domain\Taglib.class
-com\application\jsonApp\domain\InitParam.class
-com\application\jsonApp\domain\ServletMapping.class
-com\application\jsonApp\domain\Servlet.class
