@@ -84,7 +84,7 @@ public class CourseController {
 			throws ResourceNotFoundException {
 
 		LOGGER.info(LogMessages.getStudentsEnroledAt(httpHeader));
-
+		LOGGER.info("This is an added message");
 		return business.getStudentsEnrolledAtcourse(id);
 
 	}
